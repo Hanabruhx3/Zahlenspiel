@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+        <link rel="stylesheet" href="style.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width. initial-scale=1.0">
+        <title>Zahlenratespiel</title>
+        <link rel="icon" type="image/x-icon" href="dice2.png">
+    </head>
+
+    <body>
+        <audio id="booSound" src="CrowdBoo_sfx.mp3"></audio>
+        <audio id="clapSound" src="KidsCheer_sfx.mp3"></audio>
+            <div class="space">
+                <h1>&#9734; Zahlenratespiel &#9734;</h1>
+                <a href="file:///C:/Users/052458/OneDrive%20-%20Schulungszentrum%20Fohnsdorf/Sae-Tae%20SZF/Zahlenratespiel/Zahlenspiel3.html">Easy 1-50</a>
+                 <a href="file:///C:/Users/052458/OneDrive%20-%20Schulungszentrum%20Fohnsdorf/Sae-Tae%20SZF/Zahlenratespiel/Zahlenratespiel2.html">Hard 1-200</a>
+                <p> Rate eine Zahl zwischen 1 - 100! </p>
+
+                <img src="rollingdice.gif" alt="RollingDice">
+
+                <br>
+
+                <input type="number" id="guessInput" placeholder="Rate hier.. :)" min="1" max="100">
+                <br>
+                <button id="guessButton" onclick="guessNumber()">&#9733 Raten ? &#9733</button>
+                <br>
+                <button id="retryButton" onclick="retryGame()">&#9733; Neuversuch &#9733;</button>
+        
+        <p id="message"></p>
+
+        <h4>"Cool Kids Club"</h4>
+        <ul id="rangListe"></ul>
+
+        <script src="spiel.js"></script>
+
+            </div>
+    </body>
+
+
+</html>
